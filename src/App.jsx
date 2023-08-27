@@ -1,4 +1,4 @@
-import { Route, Routes} from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import "./App.css"
 import BottomNav from "./Components/BottomNav/BottomNav"
 import Header from './Components/Header/Header'
@@ -12,16 +12,15 @@ import Search from "./Pages/Search/Search"
 const App = () => {
   return (
     <div className="app">
-      <Header/>
+      {/* <Header/> */}
+      <Routes>
+        <Route path="/" element={<Trending />} />
+        <Route path="/movies" element={<Movies />} />
+        <Route path="/series" element={<Series />} />
+        <Route path="/search" element={<Search />} />
+      </Routes>
 
-        <Routes>
-          <Route path="/" element = {<Trending/>}/> 
-          <Route path="/movies" element = {<Movies/>}/> 
-          <Route path="/series" element = {<Series/>}/> 
-          <Route path="/search" element = {<Search/>}/> 
-        </Routes>
-        
-      <BottomNav/>
+      <BottomNav />
     </div>
   )
 }

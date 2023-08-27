@@ -1,5 +1,7 @@
-.trending{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.trending {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
 }

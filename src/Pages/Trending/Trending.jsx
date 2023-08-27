@@ -28,15 +28,14 @@ const Trending = () => {
     <div>
       <div className="trending">
 
-      <div className="pageTitle"> Trending </div>
-      {
-        content && content.map((item)=>{
-         return < SingleContent id={item.id} poster={item.poster_path}  key={item.id} title={item.title|| item.name } date={item.release_date || item.first_air_date} media_type ={item.media_type} vote_avg ={item.vote_average} />
-        })
-      }
-
+        {/* <div className="pageTitle"> Trending </div> */}
+        {
+          content && content.map((item) => {
+            return < SingleContent id={item.id} poster={item.poster_path} key={item.id} title={item.title || item.name} date={item.release_date || item.first_air_date} media_type={item.media_type} vote_avg={item.vote_average} />
+          })
+        }
       </div>
-     { totalPages>1 >0 &&   <CustomPagination setPage={setPage} totalPages={totalPages} />}
+      {totalPages > 1 > 0 && <CustomPagination setPage={setPage} totalPages={totalPages} />}
 
     </div>
   )

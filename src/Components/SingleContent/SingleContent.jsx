@@ -8,9 +8,9 @@ const SingleContent = ({ poster, title, date, media_type, vote_avg }) => {
     <div className='singleContainer' >
       <Badge color={vote_avg > 6 ? 'primary' : 'secondary'} badgeContent={vote_avg}></Badge>
       <img className='poster' src={poster ? `${img_300}/${poster}` : unavailable} alt={`${title}'s thumbnail`} />
-      <b className='title'>{title}</b>
+      <p className='title'>{title}</p>
       <div className="subtitles">
-        <span className='subTitle'> {media_type === 'tv' ? "TV Series" : "Movie"}</span>
+        <span className='subTitle'> {media_type === 'tv' ? "(TV Series)" : "(Movie)"}</span>
         <span className='subTitle'>{date}</span>
       </div>
     </div>

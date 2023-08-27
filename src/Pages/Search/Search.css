@@ -1,13 +1,21 @@
-.search{
-   display: flex;
-   justify-content: center;
-   margin-top: .2rem;
+.subTitle {
+  max-width: 1200px;
+  margin: auto;
 }
 
-.resut{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.2rem;
 }
 
+.resut {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .css-1ff8729-MuiInputBase-root-MuiFilledInput-root {
+  color: #e9d8e4;
+} */

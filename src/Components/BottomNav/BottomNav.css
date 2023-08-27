@@ -1,22 +1,28 @@
-.bottomNav{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 4;
+.bottomNav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
 }
 
-.MuiBottomNavigation-root{
-    background-color: #1b1b1b !important;
+.MuiBottomNavigation-root {
+  background-color: #f34c19 !important;
+  /* height: 4rem !important; */
+  border-top: 1px solid #e9d8e4;
 }
 
-.MuiBottomNavigationAction-label , .MuiSvgIcon-root{
-    color: #fff;
+.MuiBottomNavigationAction-label,
+.MuiSvgIcon-root {
+  color: #e9d8e4;
+  scale: 0.9;
+  padding: 2px;
 }
 
-.Mui-selected .MuiBottomNavigationAction-label ,
-.Mui-selected  .MuiSvgIcon-root{
-    color: #6a8cfa;
+.Mui-selected .MuiBottomNavigationAction-label,
+.Mui-selected .MuiSvgIcon-root {
+  color: #e9d8e4;
+  scale: 1.3;
 }
