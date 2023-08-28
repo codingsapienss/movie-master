@@ -17,4 +17,4 @@ const SingleContent = ({ poster, title, date, media_type, vote_avg }) => {
   )
 }
 
-export default SingleContent
+export default SingleContent ;
