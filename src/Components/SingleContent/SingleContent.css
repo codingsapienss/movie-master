@@ -1,16 +1,17 @@
 .singleContainer {
   display: flex;
   flex-direction: column;
-  width: 220px;
+  width: 225px;
   padding: 0;
   padding-bottom: 0.3;
-  margin: 1rem;
+  margin: 1.5rem;
   background-color: transparent;
   border-top: 1px solid #e9d8e4;
   border-left: 1px solid #e9d8e4;
   border-radius: 0.4rem;
   /* position: relative; */
-  color: #e9d8e4;
+  color: rgba(14, 14, 14, 0.829);
+  font-weight: bolder;
   /* margin-bottom: 4rem; */
   text-align: center;
   box-shadow: 5px 5px 8px #3b1002;
@@ -25,14 +26,15 @@
 .singleContainer:hover {
   background-color: #f34c19;
   color: #ffffff;
-  /* border: 1px solid black; */
+  transition: 0.5s ease;
   box-shadow: 5px 5px 10px 5px #360d00;
   cursor: pointer;
+  scale: 1.04;
 }
 
 .singleContainer .title {
   font-size: 1rem;
-  margin: 2px 5px;
+  margin: 5px;
 }
 
 .subtitles {
