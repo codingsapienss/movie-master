@@ -9,33 +9,25 @@
 }
 
 .MuiBottomNavigation-root {
-  background-color: #ff3c00 !important;
-
-  background: #f12711; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f5af19,
-    #f12711
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f5af19,
-    #f12711
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  /* height: 4rem !important; */
-  border-top: 1px solid #e9d8e4;
+  background-color: #f34c19 !important;
 }
 
 .MuiBottomNavigationAction-label,
 .MuiSvgIcon-root {
-  color: #e9d8e4;
+  color: beige;
   scale: 0.9;
   padding: 2px;
 }
 
 .Mui-selected .MuiBottomNavigationAction-label,
 .Mui-selected .MuiSvgIcon-root {
-  color: #e9d8e4;
-  scale: 1.3;
+  color: beige;
+  scale: 1.5;
+}
+
+@media screen and (max-width: 700px) {
+  .Mui-selected .MuiBottomNavigationAction-label,
+  .Mui-selected .MuiSvgIcon-root {
+    scale: 1.2;
+  }
 }
