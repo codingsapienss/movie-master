@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  /* margin-bottom: 3rem; */
-  padding-bottom: 4.5rem;
+  margin-top: 2.5rem;
+  padding-bottom: 6rem;
   font-size: 1.3rem;
   font-weight: 400;
 }
