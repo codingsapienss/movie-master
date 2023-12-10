@@ -1,10 +1,10 @@
 .singleContainer {
   display: flex;
   flex-direction: column;
-  width: 225px;
+  width: 180px;
   padding: 0;
-  padding-bottom: 0.3;
-  margin: 1.5rem;
+  padding-bottom: 0.3rem;
+  margin: 1.6rem;
   background-color: rgba(255, 255, 255, 0.301);
   border: 1px solid rgb(14, 14, 14);
   border-radius: 0.4rem;
@@ -33,7 +33,7 @@
 }
 
 .singleContainer .title {
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin: 5px;
 }
 
@@ -45,13 +45,13 @@
 }
 
 .subTitle {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 @media screen and (max-width: 700px) {
   .singleContainer {
     width: 135px;
-    margin: 0.5rem;
+    margin: 1.5rem;
   }
 
   .singleContainer .title {
@@ -60,7 +60,7 @@
   }
 
   .subTitle {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     margin-bottom: 2px;
   }
 }
