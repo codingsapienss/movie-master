@@ -11,8 +11,7 @@
 }
 
 .app {
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
   background-color: beige;
   min-height: 100vh;
 }
-
